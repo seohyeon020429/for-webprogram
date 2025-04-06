@@ -1,0 +1,78 @@
+.login {
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #fdf6e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+.login-form {
+    background: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+.login-form_title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ff8c00;
+    margin-bottom: 15px;
+}
+
+.login-form_label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
+
+#username,
+#userpassword
+{
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+.login-form_button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff8c00;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 15px;
+}
+
+.login-form_button:hover {
+    background-color: #e07b00;
+}
+
+.login-question {
+    display: block;
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #ff8c00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-question:hover {
+    text-decoration: underline;
+}

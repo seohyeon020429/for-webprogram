@@ -1,0 +1,105 @@
+.body-background {
+    width : 100%;
+    height : 100%;
+}
+
+.body-background img {
+    position:absolute;
+    width:100%;
+    height:100%;
+    left: 0px;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    z-index: -1;
+    opacity:100%;
+    object-fit: cover;
+}
+
+.search {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    /*
+    box-sizing: border-box;
+    padding : 148px 388px;
+    */
+    margin-top : 100px;
+}
+
+.search-container {
+    display:flex;
+    align-items: center;
+    background-color: white;
+    width : 580px;
+    padding : 16px 20px;
+    border-radius: 28px;
+}
+
+.search-button {
+    background : transparent;
+    border : none;
+    font-size : 20px;
+    cursor : pointer;
+}
+
+.search-input {
+    border : none;
+    outline : none;  /* border : none; 코드랑 똑같은 코드인듯함*/
+    background : transparent;
+    margin-left : 20px;
+    font-size : 16px;
+    flex-grow : 1;    /* 부모의 남은 공간을 차지하는 코드 */
+}
+
+.search-input::placeholder {
+    color : #bbb;
+}
+
+
+
+
+.dongalee-classification {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    background-color: rgba(0,0,0,0);
+    margin:  50px auto;   /* align : center 추가하고 margin 값 변경 */
+    max-width: 90%;
+
+
+}
+.dongalee-classification div {
+    text-align: center;
+    padding: 10px;
+    border-width: 60%;
+    height: 300px;
+    width:300px;
+    background-color: rgba(141, 173, 227, 0.8);
+    border-radius: 10px;
+    display : flex;   /* flex박스로 만들어서 방향 바꾸는 거 내가 추가한 내용 */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gobutton{
+    display: flex;
+    padding:10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    background-color: lightblue;
+    box-sizing: border-box;  /*내가 추가한 내용*/
+}
+
+.gobutton:hover {
+    background-color: deepskyblue; /* 마우스 올릴 때 배경색 변경 */
+}
+.name{
+    margin-bottom : 25px;
+}
+.detail2{
+    margin: 20px 0px;   /* margin값 내가 변경했음 */
+}

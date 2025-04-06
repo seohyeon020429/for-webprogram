@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>동아리 연습 페이지</title>
+    <style>
+        /* 기본 스타일 */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        /* 네비게이션바 */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #ffffff;
+            padding: 10px 20px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .nav_bar .site-name {
+            font-size: 20px;
+            font-weight: bold;
+            color: #000;
+            text-decoration: none;
+        }
+
+        .nav_bar .center-link {
+            margin: 0 15px;
+            color: #666;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .nav_bar .center-link:hover {
+            color: #0047ab;
+        }
+
+        .top_nav-login {
+            color: #ffffff;
+            background-color: #0047ab;
+            padding: 8px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .top_nav-login:hover {
+            background-color: #003580;
+        }
+
+        /* 페이지 제목 */
+        .header-title {
+            text-align: center;
+            margin: 30px 0;
+            font-size: 24px;
+            color: #333;
+        }
+
+        /* 카드 리스트 레이아웃 */
+        .card-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* 반응형 그리드 */
+            gap: 20px; /* 카드 간격 */
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto; /* 화면 중앙 정렬 */
+        }
+
+        /* 카드 스타일 */
+        .card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            text-align: center;
+            padding: 15px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.15);
+        }
+
+        .card img {
+            width: 100%;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .card h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .card button {
+            background-color: #0047ab;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 14px;
+            font-weight: bold;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        .card button:hover {
+            background-color: #003580;
+        }
+    </style>
+</head>
+<body>
+    <!-- 네비게이션 바 -->
+    <nav class="nav_bar">
+        <a class="site-name" href="#">사이트 이름</a>
+        <div>
+            <a class="center-link" href="#intro">사이트 소개</a>
+            <a class="center-link" href="#clubs">동아리</a>
+            <a class="center-link" href="#groups">소모임</a>
+            <a class="center-link" href="#must-have">대학생활 필수 앱?</a>
+        </div>
+        <a class="top_nav-login" href="#login">로그인</a>
+    </nav>
+
+    <!-- 페이지 제목 -->
+    <h1 class="header-title">동아리 사이트로 html/css를 연습해보자!!</h1>
+
+    <!-- 카드 리스트 -->
+    <div class="card-list">
+        <!-- 카드 1 -->
+        <div class="card">
+            <img src="https://via.placeholder.com/150" alt="이미지 1">
+            <h3>Card Title 1</h3>
+            <button>View More</button>
+        </div>
+
+        <!-- 카드 2 -->
+        <div class="card">
+            <img src="https://via.placeholder.com/150" alt="이미지 2">
+            <h3>Card Title 2</h3>
+            <button>View More</button>
+        </div>
+
+        <!-- 카드 3 -->
+        <div class="card">
+            <img src="https://via.placeholder.com/150" alt="이미지 3">
+            <h3>Card Title 3</h3>
+            <button>View More</button>
+        </div>
+
+        <!-- 카드 4 -->
+        <div class="card">
+            <img src="https://via.placeholder.com/150" alt="이미지 4">
+            <h3>Card Title 4</h3>
+            <button>View More</button>
+        </div>
+
+        <!-- 카드 5 -->
+        <div class="card">
+            <img src="https://via.placeholder.com/150" alt="이미지 5">
+            <h3>Card Title 5</h3>
+            <button>View More</button>
+        </div>
+
+        <!-- 카드 6 -->
+        <div class="card">
+            <img src="https://via.placeholder.com/150" alt="이미지 6">
+            <h3>Card Title 6</h3>
+            <button>View More</button>
+        </div>
+
+        <!-- 카드 7 -->
+        <div class="card">
+            <img src="https://via.placeholder.com/150" alt="이미지 7">
+            <h3>Card Title 7</h3>
+            <button>View More</button>
+        </div>
+
+        <!-- 카드 8 -->
+        <div class="card">
+            <img src="https://via.placeholder.com/150" alt="이미지 8">
+            <h3>Card Title 8</h3>
+            <button>View More</button>
+        </div>
+    </div>
+</body>
+</html>
